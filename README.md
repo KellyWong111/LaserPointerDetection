@@ -29,26 +29,26 @@ Ensure you have Python installed on your machine. Then, install the required lib
 
 To install OpenCV, run the following command in your terminal or command prompt:
 
-\```bash
+```bash
 pip install opencv-python
-\```
+```
 
 ### Step 2: Install NumPy
 
 NumPy is required for numerical operations in OpenCV. You can install it using:
 
-\```bash
+```bash
 pip install numpy
-\```
+```
 
 ## Usage
 
 1. **Connect a Webcam**: Ensure your webcam is connected and functioning properly.
 2. **Run the Code**: Use the following command to start the laser pointer detection:
 
-    \```bash
+    ```bash
     python laser_pointer_detection.py
-    \```
+    ```
 
 3. **Quit the Program**: Press 'q' on your keyboard to stop the detection and close the program.
 
@@ -58,11 +58,11 @@ pip install numpy
 
 By default, the code is configured to detect a red laser pointer. To adjust it for other colors, modify the `lower_red` and `upper_red` variables in the code.
 
-\```python
+```python
 # Example for a red laser pointer
 lower_red = np.array([160, 100, 100])
 upper_red = np.array([180, 255, 255])
-\```
+```
 
 You may need to experiment with these values to achieve accurate results based on your laser pointer's color.
 
